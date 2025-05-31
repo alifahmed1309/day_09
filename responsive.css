@@ -1,0 +1,141 @@
+@media (max-width: 992px) {
+
+    /* nav start */
+    #nav {
+        padding: 20px 0;
+        background: #F5F7FA;
+        border-box: 22px 22px 49px #434c58;
+    }
+
+    #nav ul,
+    .sign {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+
+    #nav .mobile_icon {
+        display: block;
+    }
+
+    #nav .mobile_icon:hover {
+        color: var(--action-success);
+    }
+
+    #nav .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* nav end */
+
+    /* banner start */
+    #banner .contains {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #banner .image {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* banner end */
+
+    /* clients start */
+
+    /* clients end */
+
+    /* community start */
+    #community .container .cart {
+        width: 100%;
+        margin: 10px 20px;
+    }
+
+    /* community end */
+
+    /* frame start */
+    #frame .container {
+        padding: 20px 0;
+    }
+
+    #frame .container .img {
+        width: 100%;
+    }
+
+    #frame .container .contains {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* frame end */
+
+    /* business start */
+    #business .container .contains {
+        width: 100%;
+    }
+
+    #business .container .stats {
+        width: 100%;
+    }
+
+    #business .container .sub-stats {
+        padding-top: 20px; 
+    }
+
+    #business .container .sub-stats .stat-box {
+        padding: 20px 10px 20px;
+        width: 50%;
+    }
+
+    /* business end */
+
+    /* illustration start */
+    #illustrate .container {
+        padding: 20px 0;
+    }
+
+    #illustrate .container .img {
+        width: 100%;
+    }
+
+    #illustrate .container .contains {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* illustration end */
+
+    /* tesla start */
+    #meet .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #meet .container .img {
+        display: block;
+        width: 100%;
+        align-items: right;
+
+    }
+
+    #meet .container .contains {
+        width: 100%;
+    }
+
+    #meet .container .icons ul li {
+        padding: 10px 15px;
+    }
+
+    /* tesla end */
+
+
+
+}
